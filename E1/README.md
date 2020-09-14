@@ -7,9 +7,11 @@
 以下C/C++函数原型用于从多通道图像（交叉存
 贮）中读取任意通道，请完成该函数的实现并基
 于OpenCV进行测试:
+```
 void getChannel(const uchar *input, int width, 
 int height, int inStep, int inChannels, uchar 
 *output, int outStep,  int channelToGet );
+```
 其中input, width, height, inStep, inChannels分别是输入图像的数
 据、宽、高、step和通道数。Output和outStep是输出图像的数据和step，
 宽高与输入图像相同、通道数为1.
